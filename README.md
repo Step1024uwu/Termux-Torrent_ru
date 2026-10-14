@@ -1,68 +1,66 @@
 # Termux-Torrent
-A simple bash tool that will allow you to **Download anything using torrent with Termux.**
 
-The script will allow you to download torrent data without installing any UTorrent or bit torrent application in you phone. This is a light weight alternative to the torrent applications. It Saves your RAM, does not run in background and works perfectly.
+Простой скрипт Bash для скачивания торрент-файлов в Termux.
 
-### Me:
-Author👨‍💻: https://github.com/khansaad1275 <br>
+Скрипт позволяет скачивать данные через торрент без установки отдельных торрент-клиентов на телефон. Это лёгкая альтернатива таким приложениям: она экономит оперативную память и не работает в фоновом режиме.
 
-Website🌎: www.Learntermux.tech <br>
+## Автор и ссылки
 
-Instagram : https://www.instagram.com/skhan_official/ <br>
-<br>
-<br>
+* Автор оригинального проекта: https://github.com/khansaad1275
+* Сайт: https://www.Learntermux.tech
 
-### Installation ⬇:
+## Установка
 
-`pkg update` <br>
+Обновите список пакетов:
 
-`pkg install git` <br>
+```bash
+pkg update
+```
 
-`git clone https://github.com/khansaad1275/Termux-Torrent` <br>
+Установите Git:
 
-`cd Termux-Torrent` <br>
+```bash
+pkg install git
+```
 
-`bash install.sh` <br>
+Склонируйте репозиторий:
 
+```bash
+git clone https://github.com/Step1024uwu/Termux-Torrent_ru.git
+```
 
+Перейдите в каталог проекта:
 
-<br>
-<br>
+```bash
+cd Termux-Torrent_ru
+```
 
-### Use 🏃‍♂️:
+Запустите установку:
 
-1. Download any torrent file from web.<br>
-2. Just open the .torrent file.  <br>
-3. Click on Edit. <br>
-4. The file will start downloading.
+```bash
+bash install.sh
+```
 
-<br>
+## Использование
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/32749921/156878911-4a643059-825d-459a-af97-e28ec56ba425.gif" alt="animated" />
-</p>
+1. Скачайте торрент-файл с нужного сайта.
+2. Откройте файл `.torrent`.
+3. Нажмите **Edit**.
+4. Начнётся загрузка файлов.
 
+## Полное руководство
 
-
-<br>
-<br>
-
-### Complete Guide with one line installation 🔗:
-Read This post for installation and usage, I have explained everything using screenshots.
+Подробное руководство по установке и использованию со скриншотами доступно на сайте автора оригинального проекта:
 
 https://www.learntermux.tech/2022/03/Termux-Torrent.html
 
-<br>
-<br>
+## Возможности
 
-### Features:
-- Works with any website as long as you can download .torrent file from it.
-- Download any Video in Just 2 Click.
-- No ads and no purchase.
-- Fast download.
+* Работает с любым сайтом, с которого можно скачать файл `.torrent`.
+* Позволяет начать загрузку видео всего за два нажатия.
+* Нет рекламы и платных покупок.
+* Высокая скорость загрузки.
 
-<br>
-<br>
+## В планах
 
-### TODO 📝:
-- Support for magnet links
+* Поддержка magnet-ссылок.
